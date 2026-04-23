@@ -1,11 +1,12 @@
 ---
 layout: page
 title: OpenROAD-Research
-description: Project entry for OpenROAD-Research.
+description: OpenROAD-based research artifacts for physical design and 3D-flow experimentation.
 importance: 4
 category: research
+github: https://github.com/ieee-ceda-datc/OpenROAD-Research
 ---
 
-OpenROAD-Research is listed as an active project line.
+OpenROAD-Research gathers OpenROAD-based research artifacts for physical design and 3D-flow experimentation.
 
-Detailed public summary remains a TODO.
+This repository is presented as a public research line and associated open artifact rather than a sole-owned project.

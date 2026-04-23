@@ -1,10 +1,10 @@
 cv:
   name: Zhiyu Zheng
   label: Eng.D. Student in Microelectronics / Integrated Circuits
-  email: zhiyuzheng7@gmail.com
+  email: zyzheng24@m.fudan.edu.cn
   location: Shanghai, China
   image: ""
-  summary: Research-oriented engineer focused on VLSI physical design, EDA tool development, ML4EDA, open-source CAD tooling, reproducible research infrastructure, and 3D IC flows.
+  summary: Research-oriented engineer focused on VLSI physical design, EDA tooling, reproducible CAD flows, OpenROAD-related research, ML4EDA, and 3D IC implementation.
 
   social_networks:
     - network: GitHub
@@ -49,7 +49,7 @@ cv:
           - Zhiyu Zheng
         publisher: ISPD 2026
         releaseDate: 2026-01-01
-        url: https://doi.org/10.1145/3764386.3779611
+        url: https://dl.acm.org/doi/10.1145/3764386.3779611
         summary: Authors listed alphabetically.
 
     Skills:
@@ -71,30 +71,47 @@ cv:
     Interests:
       - name: Research Areas
         icon: fa-solid fa-tag
-        keywords: "VLSI physical design, EDA tool development, ML4EDA, open-source EDA tooling, physical-design optimization, 3D IC flows, reproducible research infrastructure"
+        keywords: "VLSI physical design, EDA tooling, ML4EDA, OpenROAD-related flows, reproducible CAD flows, physical-design optimization, and 3D IC implementation"
 
     Projects:
       - name: TaiWei
-        summary: Project entry for TaiWei.
+        summary: Reproducible 3D IC physical-design project line built around OpenROAD-based and hybrid research flows.
         highlights:
-          - TODO
-
-      - name: TaiWei Pin 3D
-        summary: Project entry for TaiWei Pin 3D.
-        highlights:
-          - TODO
-
-      - name: ORFS-Research
-        summary: Project entry for ORFS-Research.
-        highlights:
-          - TODO
-
-      - name: OpenROAD-Research
-        summary: Project entry for OpenROAD-Research.
-        highlights:
-          - TODO
+          - Benchmark-friendly experimentation
+          - Engineering rigor
+          - Open research artifacts
 
       - name: TaiWei-Pin-3D
-        summary: Project entry for TaiWei-Pin-3D.
+        summary: Pin-aware subproject within the TaiWei line for practical 3D implementation research.
         highlights:
-          - TODO
+          - 3D flow support
+          - Pin-aware implementation
+          - Practical research tooling
+
+      - name: ORFS-Research
+        summary: Research and benchmarking work built around the research-oriented OpenROAD-flow-scripts line.
+        highlights:
+          - Reproducible RTL-to-GDS experimentation
+          - Research benchmarking
+          - Public ecosystem artifacts
+
+      - name: OpenROAD-Research
+        summary: OpenROAD-based research artifacts for physical design and 3D-flow experimentation.
+        highlights:
+          - Physical-design research
+          - 3D-flow exploration
+          - Open tooling context
+
+      - name: Fudan_Digital_EDA
+        summary: Digital IC CAD and HLS-style implementation work covering IR parsing, CFG and DFG construction, scheduling, binding, and RTL generation.
+        highlights:
+          - IR parsing
+          - Scheduling and binding
+          - RTL and Verilog generation
+
+      - name: FUDAN_ANALOG_EDA_MATLAB_SPICE
+        summary: MATLAB-based SPICE-like simulator supporting DC, transient, AC, pole-zero, and shooting-method analysis.
+        highlights:
+          - DC and transient analysis
+          - AC and pole-zero analysis
+          - Shooting-method support

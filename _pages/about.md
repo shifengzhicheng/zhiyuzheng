@@ -6,18 +6,36 @@ subtitle: Eng.D. Student in Microelectronics / Integrated Circuits at Fudan Univ
 
 profile:
   align: right
-  image:
+  image: personal_picture.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Fudan University</p>
     <p>Shanghai, China</p>
-    <p>zhiyuzheng7@gmail.com</p>
+    <p>zyzheng24@m.fudan.edu.cn</p>
 
 social: true # includes social icons at the bottom of the page
+announcements:
+  enabled: false
+latest_posts:
+  enabled: true
+  scrollable: false
+  limit: 1
 ---
 
-I am a research-oriented engineer working on VLSI physical design and EDA tooling. My interests include ML4EDA, open-source CAD flows, reproducible research infrastructure, and 3D IC design.
+I am an Eng.D. student at Fudan University working on VLSI physical design, EDA tooling, reproducible CAD flows, OpenROAD-related research, and 3D IC implementation. My work focuses on building reliable research infrastructure, turning physical-design ideas into usable tooling, and keeping experimental workflows clear and reproducible.
 
-My recent work centers on OpenROAD-based flows, macro placement, digital IC CAD algorithms, and benchmark-friendly experimentation. I care about building maintainable tooling, structuring experiments carefully, and keeping research workflows transparent and reproducible.
+My current public project lineup includes TaiWei, TaiWei-Pin-3D, ORFS-Research, OpenROAD-Research, Fudan_Digital_EDA, and FUDAN_ANALOG_EDA_MATLAB_SPICE. Together, these projects reflect my interests in research engineering, benchmark-friendly implementation, and technically grounded open artifacts.
 
-Before starting the Eng.D. program at Fudan University, I worked as a Software R&D Engineer at IC Prophet Microelectronics. Public code and technical notes are primarily maintained on [GitHub](https://github.com/shifengzhicheng), with additional work mirrored on [Gitee](https://gitee.com/Maple_of_Ten).
+Before starting the Eng.D. program, I worked as a Software R&D Engineer at IC Prophet Microelectronics. Public code is mainly maintained on [GitHub](https://github.com/shifengzhicheng).
+
+## Contact
+
+- Primary email: [zyzheng24@m.fudan.edu.cn](mailto:zyzheng24@m.fudan.edu.cn)
+- Secondary email: [zhiyuzheng7@gmail.com](mailto:zhiyuzheng7@gmail.com)
+- Zhihu: [secret-base-80](https://www.zhihu.com/people/secret-base-80)
+
+## WeChat
+
+For direct contact, the WeChat QR code is available below.
+
+<img src="/assets/img/wechat-qr.png" alt="WeChat QR code" style="max-width: 220px; border-radius: 10px;" />

@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf:
 cv_format: rendercv # options: rendercv, jsonresume
-description: Curriculum vitae and research summary.
+description: Education, experience, publications, research interests, projects, and skills.
 toc:
   sidebar: left
 ---
