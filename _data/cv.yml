@@ -74,8 +74,8 @@ cv:
         keywords: "VLSI physical design, EDA tool development, ML4EDA, open-source EDA tooling, physical-design optimization, 3D IC flows, reproducible research infrastructure"
 
     Projects:
-      - name: TaiWei: OpenROAD-Based 3D RTL-to-GDS Platform
-        summary: Reproducible end-to-end 3D IC physical-design platform around OpenROAD-based and hybrid research flows.
+      - name: "TaiWei: OpenROAD-Based 3D RTL-to-GDS Platform"
+        summary: "Reproducible end-to-end 3D IC physical-design platform around OpenROAD-based and hybrid research flows."
         highlights:
           - Flow scripting
           - Experiment orchestration
