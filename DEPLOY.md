@@ -1,23 +1,40 @@
 # Deployment
 
-This site is prepared for custom-domain deployment with `https://zhiyuzheng.com` as the primary domain.
+This site is prepared for GitHub Pages deployment with `https://zhiyuzheng.com` as the primary domain.
 
-## Recommended path
+## Primary deployment path
 
 1. Push the repository to GitHub.
-2. Import the repository into Vercel.
-3. In Vercel, add both `zhiyuzheng.com` and `www.zhiyuzheng.com` under `Domains`.
-4. Use `zhiyuzheng.com` as the primary domain in Vercel.
-5. Copy the exact DNS records shown by Vercel into Aliyun DNS.
+2. In the GitHub repository, go to `Settings -> Pages`.
+3. Set `Source` to `GitHub Actions`.
+4. In `Settings -> Pages`, set `Custom domain` to `zhiyuzheng.com`.
+5. Configure Aliyun DNS using the GitHub Pages records below.
 
-## Important constraint
+GitHub recommends adding the custom domain in repository settings before configuring DNS. DNS propagation can take up to 24 hours, and `Enforce HTTPS` may take some time to appear after the domain is configured.
 
-Do not hardcode or guess DNS target values in the repository.
+## Aliyun DNS records
 
-The required DNS records must come from the hosting dashboard after the domain is added. Vercel may show different values depending on the project and verification state, so the repo intentionally avoids storing any DNS targets.
+For the apex domain `@`, add these `A` records:
 
-## Notes
+- `185.199.108.153`
+- `185.199.109.153`
+- `185.199.110.153`
+- `185.199.111.153`
 
+For `www`, add this `CNAME` record:
+
+- `shifengzhicheng.github.io`
+
+Do not use wildcard DNS records.
+
+## Repository setup notes
+
+- The GitHub Actions workflow is defined in `.github/workflows/deploy.yml`.
 - The Astro `site` URL is set to `https://zhiyuzheng.com`.
 - Canonical metadata, Open Graph URLs, RSS, sitemap, and `robots.txt` are aligned to that primary domain.
-- `www.zhiyuzheng.com` should be added in Vercel as a secondary domain and redirected there by platform configuration if desired.
+- `base` is intentionally not set because this site is intended to live at the domain root.
+- `public/CNAME` is not required for a custom GitHub Actions Pages workflow. The source of truth for the domain is `Settings -> Pages -> Custom domain`.
+
+## Optional alternative
+
+Another host can be used later if needed, but GitHub Pages is the canonical deployment path for this repository.
