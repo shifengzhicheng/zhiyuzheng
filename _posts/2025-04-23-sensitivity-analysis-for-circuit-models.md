@@ -66,12 +66,11 @@ We can further refine the result to describe how one component of the solution d
 Let \\(\xi_i^T\\) denote the \\(i\\)-th row of \\(M^{-1}\\). Then
 
 \\[
+\begin{aligned}
 \delta x_i
-=
-\xi_i^T(-\delta M \cdot x + \delta b)
-=
-\sum_{k,l} -\xi_{ik}\delta M_{kl}x_l
-+ \sum_j \xi_{ij}\delta b_j.
+&= \xi_i^T(-\delta M \cdot x + \delta b) \\
+&= \sum_{k,l} -\xi_{ik}\delta M_{kl}x_l + \sum_j \xi_{ij}\delta b_j.
+\end{aligned}
 \\]
 
 Therefore,
@@ -168,8 +167,7 @@ A more efficient idea is to return, locally, to a linearized circuit picture. Ne
 =
 M^{-1}
 \left(
--\frac{\partial M}{\partial p}x
-+ \frac{\partial b}{\partial p}
+  -\frac{\partial M}{\partial p}x + \frac{\partial b}{\partial p}
 \right)
 \delta p.
 \\]
