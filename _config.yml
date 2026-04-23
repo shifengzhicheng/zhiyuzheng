@@ -90,8 +90,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Notes
-blog_description: OpenROAD, reproducible CAD flows, physical-design experiments, and tooling notes.
+blog_name: Blog
+blog_description: Short writing on research, tools, experiments, and implementation work.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

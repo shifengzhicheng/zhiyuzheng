@@ -74,16 +74,27 @@ cv:
         keywords: "VLSI physical design, EDA tool development, ML4EDA, open-source EDA tooling, physical-design optimization, 3D IC flows, reproducible research infrastructure"
 
     Projects:
-      - name: "TaiWei: OpenROAD-Based 3D RTL-to-GDS Platform"
-        summary: "Reproducible end-to-end 3D IC physical-design platform around OpenROAD-based and hybrid research flows."
+      - name: TaiWei
+        summary: Project entry for TaiWei.
         highlights:
-          - Flow scripting
-          - Experiment orchestration
-          - Benchmark-friendly evaluation
+          - TODO
 
-      - name: Busy-RTLMP
-        summary: Bus-aware hierarchical macro placement methodology with OpenROAD-based validation and reproducible benchmarking.
+      - name: TaiWei Pin 3D
+        summary: Project entry for TaiWei Pin 3D.
         highlights:
-          - Macro placement
-          - Floorplanning
-          - Open-source validation
+          - TODO
+
+      - name: ORFS-Research
+        summary: Project entry for ORFS-Research.
+        highlights:
+          - TODO
+
+      - name: OpenROAD-Research
+        summary: Project entry for OpenROAD-Research.
+        highlights:
+          - TODO
+
+      - name: TaiWei-Pin-3D
+        summary: Project entry for TaiWei-Pin-3D.
+        highlights:
+          - TODO
