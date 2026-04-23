@@ -33,9 +33,3 @@ Before starting the Eng.D. program, I worked as a Software R&D Engineer at IC Pr
 - Primary email: [zyzheng24@m.fudan.edu.cn](mailto:zyzheng24@m.fudan.edu.cn)
 - Secondary email: [zhiyuzheng7@gmail.com](mailto:zhiyuzheng7@gmail.com)
 - Zhihu: [secret-base-80](https://www.zhihu.com/people/secret-base-80)
-
-## WeChat
-
-For direct contact, the WeChat QR code is available below.
-
-<img src="/assets/img/wechat-qr.png" alt="WeChat QR code" style="max-width: 220px; border-radius: 10px;" />
