@@ -28,6 +28,12 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
+      - name: Align Bundler with lockfile 📦
+        run: |
+          BUNDLER_VERSION="$(ruby -e 'print(File.read("Gemfile.lock")[/BUNDLED WITH\n\s+([0-9.]+)/, 1] || "")')"
+          if [ -n "$BUNDLER_VERSION" ]; then
+            gem install bundler -v "$BUNDLER_VERSION"
+          fi
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
