@@ -1,0 +1,158 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { site } from "../data/site";
+
+const featuredProjects = (await getCollection("projects"))
+  .filter(({ data }) => data.featured)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const publications = (await getCollection("publications")).sort((a, b) => b.data.year - a.data.year);
+---
+
+<BaseLayout title="CV | Zhiyu Zheng">
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Curriculum Vitae</span>
+        <h1 class="section-title">{site.preferredDisplayName}</h1>
+      </div>
+    </div>
+    <div class="card prose">
+      <p>{site.title}</p>
+      <p>{site.affiliation} · {site.currentRole} · {site.location}</p>
+      <p>
+        Public contact: <a class="inline-link" href={`mailto:${site.emailPrimary}`}>{site.emailPrimary}</a><br />
+        GitHub: <a class="inline-link" href={site.github} target="_blank" rel="noreferrer">{site.github}</a><br />
+        Google Scholar: TODO<br />
+        CV PDF: TODO
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Education</span>
+        <h2 class="section-title">Academic Background</h2>
+      </div>
+    </div>
+    <ul class="list">
+      {site.education.map((item) => (
+        <li class="timeline-item">
+          <strong>{item.institution}</strong>
+          <span>{item.degree}</span>
+          <span>{item.period}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Experience</span>
+        <h2 class="section-title">Industry Experience</h2>
+      </div>
+    </div>
+    <ul class="list">
+      {site.experience.map((item) => (
+        <li class="timeline-item">
+          <strong>{item.organization}</strong>
+          <span>{item.role}</span>
+          <span>{item.period}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Research Interests</span>
+        <h2 class="section-title">Current Topics</h2>
+      </div>
+    </div>
+    <ul class="chip-list">
+      {site.researchInterests.map((item) => <li>{item}</li>)}
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Selected Projects</span>
+        <h2 class="section-title">Representative Work</h2>
+      </div>
+    </div>
+    <ul class="list">
+      {featuredProjects.map((project) => (
+        <li class="timeline-item">
+          <strong>{project.data.title}</strong>
+          <span>{project.data.summary}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Publications</span>
+        <h2 class="section-title">Papers and Research Writing</h2>
+      </div>
+    </div>
+    <ul class="list">
+      {publications.map((publication) => (
+        <li class="timeline-item">
+          <strong>{publication.data.title}</strong>
+          <span>{publication.data.authors}</span>
+          <span>{publication.data.venue} · {publication.data.year}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Skills</span>
+        <h2 class="section-title">Tooling and Methods</h2>
+      </div>
+    </div>
+    <div class="grid cards-2">
+      <article class="card">
+        <h3>Languages</h3>
+        <p>{site.skills.languages.join(", ")}</p>
+      </article>
+      <article class="card">
+        <h3>EDA Tools</h3>
+        <p>{site.skills.eda.join(", ")}</p>
+      </article>
+      <article class="card">
+        <h3>Computing</h3>
+        <p>{site.skills.computing.join(", ")}</p>
+      </article>
+      <article class="card">
+        <h3>Analysis</h3>
+        <p>{site.skills.analysis.join(", ")}</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Honors and Awards</span>
+        <h2 class="section-title">Pending Verification</h2>
+      </div>
+    </div>
+    <ul class="list">
+      {site.honors.map((item) => (
+        <li class="timeline-item">
+          <strong>{item}</strong>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

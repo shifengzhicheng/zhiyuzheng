@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const notes = (await getCollection("notes")).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="Notes | Zhiyu Zheng">
+  <section>
+    <div class="section-header">
+      <div>
+        <span class="eyebrow">Notes</span>
+        <h1 class="section-title">OpenROAD, CAD Flows, and Research Logs</h1>
+      </div>
+    </div>
+    <div class="grid cards-2">
+      {notes.map((note) => (
+        <article class="card">
+          <h2><a href={`/notes/${note.slug}/`}>{note.data.title}</a></h2>
+          <p>{note.data.summary}</p>
+          <div class="meta">
+            <span>{note.data.date.toISOString().slice(0, 10)}</span>
+            {note.data.draft && <span>Draft</span>}
+            {note.data.tags.map((tag) => <span>{tag}</span>)}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
