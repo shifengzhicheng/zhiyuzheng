@@ -1,0 +1,11 @@
+github_users:
+  - shifengzhicheng
+
+repo_description_lines_max: 2
+
+github_repos:
+  - shifengzhicheng/Busy-RTLMP
+  - shifengzhicheng/OpenROAD-3D-flowdir
+  - shifengzhicheng/Fudan_Digital_EDA
+  - shifengzhicheng/OpenROAD-learning-note
+  - shifengzhicheng/FUDAN_ANALOG_EDA_MATLAB_SPICE

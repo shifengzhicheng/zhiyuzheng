@@ -1,0 +1,89 @@
+cv:
+  name: Zhiyu Zheng
+  label: Eng.D. Student in Microelectronics / Integrated Circuits
+  email: zhiyuzheng7@gmail.com
+  location: Shanghai, China
+  image: ""
+  summary: Research-oriented engineer focused on VLSI physical design, EDA tool development, ML4EDA, open-source CAD tooling, reproducible research infrastructure, and 3D IC flows.
+
+  social_networks:
+    - network: GitHub
+      username: shifengzhicheng
+
+  sections:
+    Education:
+      - institution: Fudan University
+        location: Shanghai, China
+        area: Microelectronics / Integrated Circuits
+        studyType: Eng.D.
+        start_date: 2024-09-01
+        end_date:
+        highlights:
+          - College of Integrated Circuits and Micro-Nano Electronics.
+
+      - institution: Fudan University
+        location: Shanghai, China
+        area: Microelectronics
+        studyType: B.Eng.
+        start_date: 2020-09-01
+        end_date: 2024-06-01
+        highlights:
+          - School of Microelectronics.
+
+    Experience:
+      - company: IC Prophet Microelectronics
+        position: Software R&D Engineer
+        location: Shanghai, China
+        start_date: 2023-09-01
+        end_date: 2024-07-01
+        summary: Software engineering work related to EDA-oriented development.
+        highlights:
+          - Participated in engineering and tooling work for integrated-circuit design software.
+
+    Publications:
+      - title: "Invited: Toward Sustainable and Transparent Benchmarking for Academic Physical Design Research"
+        authors:
+          - Liwen Jiang
+          - Andrew Kahng
+          - Zhiang Wang
+          - Zhiyu Zheng
+        publisher: ISPD 2026
+        releaseDate: 2026-01-01
+        url: https://doi.org/10.1145/3764386.3779611
+        summary: Authors listed alphabetically.
+
+    Skills:
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "C/C++, Python, Verilog HDL, Tcl, Perl, SKILL, Shell"
+
+      - name: EDA Tools
+        level: Advanced
+        icon: fa-solid fa-microchip
+        keywords: "Cadence Virtuoso, Innovus, Genus, OpenROAD, Vivado"
+
+      - name: Scientific Computing
+        level: Advanced
+        icon: fa-solid fa-chart-line
+        keywords: "PyTorch, TensorFlow, NumPy, Pandas, Matplotlib, MATLAB"
+
+    Interests:
+      - name: Research Areas
+        icon: fa-solid fa-tag
+        keywords: "VLSI physical design, EDA tool development, ML4EDA, open-source EDA tooling, physical-design optimization, 3D IC flows, reproducible research infrastructure"
+
+    Projects:
+      - name: TaiWei: OpenROAD-Based 3D RTL-to-GDS Platform
+        summary: Reproducible end-to-end 3D IC physical-design platform around OpenROAD-based and hybrid research flows.
+        highlights:
+          - Flow scripting
+          - Experiment orchestration
+          - Benchmark-friendly evaluation
+
+      - name: Busy-RTLMP
+        summary: Bus-aware hierarchical macro placement methodology with OpenROAD-based validation and reproducible benchmarking.
+        highlights:
+          - Macro placement
+          - Floorplanning
+          - Open-source validation

@@ -1,63 +1,37 @@
-# Zhiyu Zheng Personal Site
+# Zhiyu Zheng Personal Website
 
-Research-engineering personal site built with Astro and content collections.
+This repository is based on the `al-folio` academic website template and customized for Zhiyu Zheng.
 
-## Stack
+## Main files to edit
 
-- Astro
-- Markdown content collections
-- IBM Plex Sans + Source Serif 4
+- `_config.yml`: site-wide metadata and domain settings
+- `_pages/about.md`: homepage biography and profile block
+- `_data/socials.yml`: public contact and social links
+- `_data/cv.yml`: CV data rendered on `/cv/`
+- `_bibliography/papers.bib`: publications
+- `_projects/`: project pages
+- `_news/`: short announcements on the homepage
+- `_posts/`: blog posts and notes
 
 ## Local development
 
 ```bash
+bundle install
 npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-npm run check
+bundle exec jekyll serve
 ```
 
 ## Deployment
 
-The primary deployment target is GitHub Pages with the custom domain `https://zhiyuzheng.com`.
+The repository uses GitHub Actions to build and deploy the site to GitHub Pages.
 
-Main path:
+Custom domain:
 
-1. Push to GitHub.
-2. In `Settings -> Pages`, set `Source = GitHub Actions`.
-3. In `Settings -> Pages`, set `Custom domain = zhiyuzheng.com`.
-4. Configure Aliyun DNS:
-   - apex `@` `A` records:
-     - `185.199.108.153`
-     - `185.199.109.153`
-     - `185.199.110.153`
-     - `185.199.111.153`
-   - `www` `CNAME`:
-     - `shifengzhicheng.github.io`
+- primary domain: `https://zhiyuzheng.com`
+- repository setting: `Settings -> Pages`
 
-Notes:
+## Source backup
 
-- GitHub recommends adding the custom domain in repository settings before configuring DNS.
-- DNS propagation can take up to 24 hours.
-- `Enforce HTTPS` may appear after DNS finishes propagating.
-- Do not use wildcard DNS records.
-- `public/CNAME` is not required for a custom GitHub Actions Pages workflow.
+The pre-migration Astro content was backed up locally to:
 
-## Content model
-
-- `src/content/projects`: featured and secondary projects
-- `src/content/publications`: publication entries
-- `src/content/notes`: notes and draft posts
-
-## TODO placeholders to verify
-
-- Google Scholar link
-- Public CV PDF
-- Secondary email
-- TaiWei public link
-- Honors and awards
+`/tmp/zhiyuzheng-migration-backup`
