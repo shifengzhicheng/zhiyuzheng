@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TaiWei: OpenROAD-Based 3D RTL-to-GDS Platform
+title: "TaiWei: OpenROAD-Based 3D RTL-to-GDS Platform"
 description: Reproducible end-to-end 3D IC physical-design platform around OpenROAD-based and hybrid research flows.
 importance: 1
 category: research
