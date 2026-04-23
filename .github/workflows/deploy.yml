@@ -27,13 +27,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
+          bundler: Gemfile.lock
           bundler-cache: true
-      - name: Align Bundler with lockfile 📦
-        run: |
-          BUNDLER_VERSION="$(ruby -e 'print(File.read("Gemfile.lock")[/BUNDLED WITH\n\s+([0-9.]+)/, 1] || "")')"
-          if [ -n "$BUNDLER_VERSION" ]; then
-            gem install bundler -v "$BUNDLER_VERSION"
-          fi
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
@@ -50,7 +45,6 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install -r requirements.txt
-          bundle install --jobs 4 --retry 3
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
