@@ -27,7 +27,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
-          bundler: Gemfile.lock
+          bundler: "2.5.22"
           bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
