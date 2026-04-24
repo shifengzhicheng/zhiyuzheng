@@ -91,7 +91,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog
-blog_description: Short writing on research, tools, experiments, and implementation work.
+blog_description: Writing on research, engineering, and reflections along the way.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
