@@ -6,95 +6,49 @@ tags: [ai-programming, research, reflection]
 published: false 
 ---
 
-# From Traditional Programming to AI-Assisted Programming and Research
+# 从传统编程到 AI 辅助编程与科研
 
-## Introduction: The Paradigm Shift
+## 一、 引言：范式转变
 
-Looking back to 2022, the first time I truly felt the power of AI was when
-programmers used Stable Diffusion to outperform human artists in illustration.
-Many argued that AI-generated works lacked a "soul," but I viewed art as an
-informational database accumulated by human civilization—one that AI could
-deeply leverage.
+回望 2022 年，我第一次真正感受到 AI 的震撼，是看到程序员利用 Stable Diffusion 在插画领域超越了人类画师。当时许多人认为 AI 生成的作品缺乏“灵魂”，但我认为，艺术本身就是人类文明所累积的一种信息数据库——而这正是 AI 可以深度杠杆化的领域。
 
-That same winter, the emergence of GPT-3.5 shifted my perspective entirely.
-Although criticized for lacking deep logic at the time, it quickly helped me
-implement unfamiliar syntax and libraries.  Since then, AI's rapid development
-has felt unstoppable.  We appear to have crossed a technological singularity: in
-the near future, human work may be reduced to interface construction and data
-calibration, while generation and idea verification are largely handled by AI.
-The era of struggling just to acquire basic knowledge is closing.  AI will take
-over active creation simply because it is incredibly cost-effective.
+同年的那个冬天，GPT-3.5 的横空出世彻底重塑了我的观点。尽管它在当时因缺乏严密的底层逻辑而饱受诟病，但它却迅速帮我实现了许多不熟悉的语法和库。从那时起，AI 的迅猛发展便势不可挡。
 
-## The Foundation: Why Traditional Programming Still Matters
+我不觉得在人脑中发生的突触传递电信号的行为比浮点在神经网络中的传播要高尚，我认为人本身也是一种概率模型。在现在的时代中有时候会感觉AI或许要比其他合作伙伴更加值得信任，尽管它们确实会犯错，但是其实人也一样会犯错，不过，人会自己去纠错，而AI可能会，也可能不会，你不确定它是否真的进行过纠错这一行为。
 
-Before the widespread adoption of AI, I experienced the complete cycle of
-traditional software engineering: compiling, writing code, designing data
-structures, and debugging.  This foundation gave me a profound understanding of
-the computer world at the architectural level.
+我们似乎已经跨越了某个技术奇点：在不久的将来，人类的工作可能被简化为接口构建和数据校准，而内容的生成与想法的验证将主要由 AI 来承担。那个仅仅为了获取基础知识而苦苦挣扎的时代正在走向终结，AI 将接管主动创造的职能，原因很简单——它的成本效益高得惊人。
 
-I remain skeptical that relying entirely on "vibe coding" without foundational
-knowledge can lead to sustainable, long-term projects.  While AI possesses a
-vast context window, it often drifts from the main objective.  Blindly executing
-AI's suggestions without original thought is risky.  True innovation stems from
-connecting our understanding of the real world with the fundamental mechanics of
-computing.  In an AI-assisted era, foundational knowledge and genuine curiosity
-remain your most reliable guides.
+## 二、 基石：为什么传统编程依然至关重要
 
-## The Turning Point: Collaboration over Replacement
+在 AI 广泛普及之前，我完整经历过传统软件工程的生命周期：编译、写代码、设计数据结构以及调试。这段基石般的经历，让我对计算机世界在架构层面上有了深刻的理解。
 
-Initially, AI was an auxiliary tool for me—a faster way to gather information,
-analyze code snippets, and generate preliminary solutions to unfamiliar
-problems.
+因此，我至今仍对完全依赖“氛围感编程”（vibe coding）而缺乏底层知识能否走得长远持怀疑态度。虽然 AI 拥有庞大的上下文窗口，但它也经常偏离核心目标。盲目执行 AI 的建议而不加独立思考是极其危险的。真正的创新，往往源于我们将对现实世界的理解与计算机的底层运行机制相连接。在 AI 辅助的时代，扎实的基础知识和纯粹的好奇心，依然是你最可靠的引路人。
 
-The turning point was when AI models like Codex took over the bulk of my coding
-work.  By simply describing my goals in natural language and maintaining strict
-control over the top-level architecture, I could generate highly performant
-code.  Iteration speed skyrocketed.  I could verify the feasibility of my ideas
-and optimize details at an unimaginable pace.
+## 三、 转折点：是协同，而非替代
 
-However, this doesn't mean AI replaces human judgment.  AI often falls back
-heavily on defensive programming, which can introduce logical redundancy and
-impact code readability.  By treating AI as a collaborator rather than a
-replacement, I use it to expand my tech stack and quickly execute ideas,
-creating a powerful positive feedback loop that pushes the boundaries of my own
-capabilities.
+起初，AI 对我而言只是一个辅助工具——一种更高效的信息获取方式，用来分析代码片段，或为不熟悉的问题生成初步的解决方案。
 
-## Toward Research: The Art of Asking Questions
+真正的转折点发生在像 Codex 这样的 AI 模型开始接管我大部分的编码工作时。通过用自然语言描述我的目标，并对顶层架构保持严格的控制，我能够生成高性能的代码。迭代速度迎来了爆炸式增长，我可以用难以想象的速度去验证想法的可行性并优化细节。
 
-The integration of AI into research and programming is becoming mainstream.  In
-this new landscape, the core human capability shifts from writing code to asking
-the right questions, designing experiments, and critical analysis.
+然而，这并不意味着 AI 已经取代了人类的判断。现阶段的 AI 往往过度进行防御性编程，这可能会引入逻辑冗余并影响代码的可读性，导致代码系统越来越冗长且无法维护。通过将 AI 视为协作者而非替代品，我利用它来拓宽自己的技术栈并快速执行想法，从而形成了一个强大的正向反馈循环，不断拓宽我个人能力的边界。
 
-If AI completely takes over problem formulation, research loses its meaning.
-Formulating new hypotheses and defining needs are distinctly human endeavors;
-how those needs are solved can be delegated to AI.  Standardized workflows
-maximize AI's utility, dramatically lowering the cost of iteration and allowing
-us to test ideas rapidly.  Still, AI struggles to bridge the gap between the
-physical world and the digital realm—though embodied AI may eventually close
-this gap, making us the last generation to conduct research entirely "by hand."
+## 四、 迈向科研：提问的艺术
 
-## Navigating the Risks
+AI 与科研及编程的融合正逐步成为主流。在这个全新的格局中，人类的核心能力已经从“编写代码”转变为“提出正确的问题”、“设计实验”以及“进行批判性分析”。
 
-As I integrate AI deeper into my workflow, several critical risks require
-constant vigilance: - **Hallucinations**: AI can confidently generate content
-that looks plausible but is fundamentally incorrect.  - **Skill Atrophy**:
-Over-reliance on AI may weaken technical intuition and sensitivity to
-foundational principles.  - **False Positives in Research**: In academic and
-research contexts, a script that "runs" without errors should never be confused
-with a system that makes a valid scientific contribution.  - **Verification is
-Mandatory**: All generated results demand rigorous verification, reproduction,
-and peer-review.
+如果连问题的构建都完全交由 AI 主导，那么研究本身就失去了意义。提出新的假设、定义具体的需求，这些都是独特的人类特质；至于这些需求如何被解决，则完全可以委托给 AI。标准化的工作流能够最大化 AI 的效能，剧烈降低迭代成本，让我们得以快速测试灵感。尽管如此，AI 目前仍难以跨越物理世界与数字领域之间的鸿沟——虽然具身智能（Embodied AI）最终可能会抹平这一差距，但也让我们这代人，可能成为了最后一批完全“纯手工”进行科学研究的人类。
 
-## Looking Ahead
+## 五、 驾驭风险
 
-My primary goal moving forward is to build a robust, AI-assisted research
-workflow.  I plan to seamlessly connect paper reading, implementation, and
-experiment logging.  By testing the limits of AI in concrete research problems,
-I hope to curate a structured library of prompts, templates, and experimental
-practices tailored to my needs.
+随着我将 AI 更深地融入到日常工作流中，以下几个关键风险需要保持长期的警惕：
 
-**Closing Thoughts:** AI-assisted programming does not render traditional skills
-obsolete.  Instead, it elevates the challenge.  It makes me acutely aware that
-the real work lies in defining meaningful problems, architecting robust systems,
-rigorously verifying results, and transforming vague ideas into concrete
-research that can run, be reproduced, and drive the field forward.
+* **幻觉（Hallucinations）**：AI 能够极其自信地生成看似合理、实则根本错误的内容。
+* **技能萎缩（Skill Atrophy）**：过度依赖 AI 可能会削弱技术直觉，降低对底层原理的敏感度。
+* **科研中的“伪阳性”（False Positives in Research）**：在学术和科研语境下，一个运行起来“没有报错”的脚本，绝不能与“做出了有效的科学贡献”划等号。
+* **验证是铁律（Verification is Mandatory）**：所有生成的结果都必须经过严格的验证、复现和同行评审。
+
+## 六、 展望未来
+
+我接下来的首要目标是构建一个高效、稳健的 AI 辅助科研工作流。我计划将论文阅读、代码实现和实验日志无缝连接起来。通过在具体的科研问题中试探 AI 的能力边界，我希望整理出一套个性化的、结构化的提示词库、模板以及实验最佳实践。
+
+**结语：** AI 辅助编程并没有让传统技能过时，相反，它拔高了挑战的门槛。它让我敏锐地意识到，真正核心的工作在于定义有价值的问题、构架健壮的系统、进行严谨的结果验证，以及将模糊的灵感转化为能够切实运行、可复现并推动领域向前发展的具体研究。
