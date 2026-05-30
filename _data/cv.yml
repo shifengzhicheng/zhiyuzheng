@@ -52,6 +52,38 @@ cv:
         url: https://dl.acm.org/doi/10.1145/3764386.3779611
         summary: Authors listed alphabetically.
 
+      - title: "CHIP-MAP: A Collaborative Optimization Framework for Macro Placement Using Large Language Models"
+
+        authors:
+
+          - Yiming Du
+
+          - Renye Yan
+
+          - Yunfan Yang
+
+          - Frank Qu
+
+          - Jiajun Tan
+
+          - Zhiyu Zheng
+
+          - Yiming Gan
+
+          - Ling Liang
+
+          - Zongwei Wang
+
+          - Yimao Cai
+
+        publisher: DATE 2026
+
+        releaseDate: 2026-01-01
+
+        url: https://past.date-conference.com/proceedings-archive/2026/DATA/579.pdf
+
+        summary: Session TS22.2. 
+
     Skills:
       - name: Programming
         level: Advanced
