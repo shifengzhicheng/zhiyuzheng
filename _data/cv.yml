@@ -1,14 +1,16 @@
 cv:
-  name: Zhiyu Zheng
-  label: Eng.D. Student in Microelectronics / Integrated Circuits
+  name: Zhiyu Zheng (郑志宇)
+  label: Eng.D. Student in Microelectronics / Integrated Circuits at Fudan ICMNE
   email: zyzheng24@m.fudan.edu.cn
   location: Shanghai, China
   image: ""
-  summary: Research-oriented engineer focused on VLSI physical design, EDA tooling, reproducible CAD flows, OpenROAD-related research, ML4EDA, and 3D IC implementation.
+  summary: Eng.D. student at the College of Integrated Circuits and Micro-Nano Electronics (ICMNE), Fudan University, focused on VLSI physical design, EDA tooling, reproducible CAD flows, OpenROAD-related research, ML4EDA, and 3D IC implementation.
 
   social_networks:
     - network: GitHub
       username: shifengzhicheng
+    - network: ORCID
+      username: 0009-0004-4026-7057
 
   sections:
     Education:
@@ -19,7 +21,8 @@ cv:
         start_date: 2024-09-01
         end_date:
         highlights:
-          - College of Integrated Circuits and Micro-Nano Electronics.
+          - College of Integrated Circuits and Micro-Nano Electronics (ICMNE).
+          - "Advisor: Prof. Zhiang Wang (王志昂); Co-advisor: Prof. Keren Zhu (朱可人)."
 
       - institution: Fudan University
         location: Shanghai, China

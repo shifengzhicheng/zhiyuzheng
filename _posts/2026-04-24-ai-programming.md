@@ -1,9 +1,13 @@
---- 
-layout: post title: From Traditional Programming to AI-Assisted Programming
-and Research date: 2026-04-24 00:00:00+0800 
-description: Reflections on moving from traditional programming toward AI-assisted programming and research.  
-tags: [ai-programming, research, reflection] 
-published: false 
+---
+layout: post
+title: "From Traditional Programming to AI-Assisted Programming and Research"
+date: 2026-04-24 00:00:00 +0800
+description: "Reflections on moving from traditional programming toward AI-assisted programming and research."
+tags:
+  - ai-programming
+  - research
+  - reflection
+published: false
 ---
 
 # 从传统编程到 AI 辅助编程与科研
