@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  (郑志宇)<br><br>
+  (郑 志宇)<br><br>
   Eng.D. Student in Microelectronics / Integrated Circuits<br>
   <a href="https://icmne.fudan.edu.cn/main.htm">College of Integrated Circuits and Micro-Nano Electronics (ICMNE), Fudan University</a><br>
   Advisor: <a href="https://ieee-ceda.org/contact/zhiang-wang">Prof. Zhiang Wang (王志昂)</a>;
