@@ -26,6 +26,7 @@ latest_posts:
   enabled: true
   scrollable: false
   limit: 1
+selected_papers: true
 ---
 
 I am an Eng.D. student in Microelectronics / Integrated Circuits at the [College of Integrated Circuits and Micro-Nano Electronics (ICMNE), Fudan University](https://icmne.fudan.edu.cn/main.htm). I am advised by [Prof. Zhiang Wang (王志昂)](https://ieee-ceda.org/contact/zhiang-wang) and co-advised by [Prof. Keren Zhu (朱可人)](https://krz.engineer/). My research interests include VLSI physical design, EDA tooling, reproducible CAD flows, OpenROAD-related research, and 3D IC implementation.

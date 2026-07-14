@@ -44,6 +44,17 @@ cv:
           - Participated in engineering and tooling work for integrated-circuit design software.
 
     Publications:
+      - title: "From Tool Invocation to Source-Mechanism Exploration: Protected White-Box DSE for Open-Source EDA"
+        authors:
+          - Zhiyu Zheng
+          - Yiming Du
+          - Ziyi Wang
+          - Zhiang Wang
+        publisher: MLCAD 2026
+        releaseDate: 2026-09-07
+        url: https://arxiv.org/abs/2607.11294
+        summary: Accepted at the 8th ACM/IEEE International Symposium on Machine Learning for CAD.
+
       - title: "Invited: Toward Sustainable and Transparent Benchmarking for Academic Physical Design Research"
         authors:
           - Liwen Jiang
